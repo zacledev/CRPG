@@ -1,0 +1,37 @@
+{
+  "basic_sword": {
+    "basic_attack" : {
+      "id": "basic_attack",
+      "name": "Basic Attack",
+      "template": "basic_single_attack",
+      "min_damage": 3,
+      "max_damage": 5,
+      "hit": 2,
+      "duration": 5
+    },
+    "critical_attack" : {
+      "id": "critical_attack",
+      "name": "Cricital Attack",
+      "template": "basic_single_attack",
+      "min_damage": 9,
+      "max_damage": 13,
+      "hit": 6,
+      "duration": 15
+    }
+  }
+}
+
+
+
+
+"""
+basic attack : 3-5 dégat, un ennemi touché. 5 , touche l'ennemi 2 frame ,
+critical attack : 9 - 13, un ennemi touché, 15 , touche l'ennemi a 6 frame, 30 frame de cooldown (pr cette attaque précisement)
+swing attack : 2 - 3, jusqu'a 3 ennemi touché, 12, touche l'ennemi a frame 2, 4 et 6, le temps d'animation dimunue de 2 pour chaque ennemi en moins
+dodge : esquive l'attaque, 13 frame d'animation, dodge entre frame 3 et 10
+block : bloque l'attaque, 5 frame d'animation, bloque l'attaque entre la frame 2 et 4. Reduit les dégat subi de 50%
+
+attaque des goblin
+basic attack : 1 - 2 dégat, cible unique, 6 frame, touche l'ennemi a 2 frame
+dodge : esquive l'attaque, 10 frame d'animation, dodge entre 3 et 8
+"""
